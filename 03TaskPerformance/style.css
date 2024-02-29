@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.border1 {
+    border: 5px solid rgb(0, 255, 34);
+    border-left-style: double;
+    border-right-style:dotted;
+    border-top-color: rgb(68, 0, 255) ;
+    border-bottom-color:rgb(255, 245, 49);
+   
+    
+}
+
+.border2 {
+    border: 5px solid rgb(0, 221, 255);
+    border-left-style: double;
+    border-right-style: dotted;
+    border-top-color: rgb(255, 0, 55) ;
+    border-bottom-color:rgb(5, 84, 148);
+}
+
+.border3 {
+    border: 5px solid rgb(255, 0, 0);
+    border-left-style: double;
+    border-right-style: dotted;
+    border-top-color: rgb(0, 255, 128) ;
+    border-bottom-color:rgb(188, 255, 4);
+}
+
+
+
+.border4 {
+    border: 5px solid rgb(255, 4, 159);
+    border-left-style: double;
+    border-right-style: dotted;
+    border-top-color: black ;
+    border-bottom-color:blue;
+}
+
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+
+
+.border-container {
+    display: flex;
+    justify-content: center;
+}
+.border-container > div {
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+}
